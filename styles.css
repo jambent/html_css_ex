@@ -1,0 +1,116 @@
+body {
+    background-color:rgb(39, 88, 147);
+    margin:0px;
+}
+#year {
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:4px;
+}
+/*.header-content{
+  display:grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas: "left_side header_centre right_side";
+  padding-top:20px; 
+
+}
+*/
+.content{
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "left-side centre right-side";
+  padding-top:40px;
+  margin-bottom:-50px 
+
+}
+.left-border{
+  background-color:rgb(135, 145, 164);
+  grid-area: left-side;
+  
+ }
+ .right-border{
+ background-color:rgb(135, 145, 164);
+ grid-area: right-side;
+ 
+ }
+article{
+  color:ivory;
+  grid-area: centre;
+  
+}
+
+
+img {
+    height:12%;
+    width:12%;
+    border-radius: 50%;
+    border: 2px solid rgb(140, 142, 145);
+    margin-left:9px;
+    margin-bottom:-17px;
+  }
+
+  a{
+    color:ivory;
+    font-size:16px;
+    padding-right:30px;
+    padding-left:30px;
+    text-decoration:none;
+  }
+  a:hover {
+      color: black;
+      background-color:rgb(197, 195, 195);
+    }
+    
+  h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:ivory;
+    font-style:bold;
+    font-size:xx-large;
+    /*margin-left:-210px;*/
+  }
+  h2{
+    font-size:20px;
+    margin-bottom:-10px;
+  }
+  h3{
+    font-size:16px;
+    margin-bottom:-10px;
+  }
+  h1,h2,h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  p,li{
+    font-size: 17px;
+  }
+
+  header{
+    display:flex;
+    justify-content:space-around;
+    /*align-items:*/
+    border-bottom:3px;
+    border-top:5px;
+    border-color:grey;
+    border-style:solid;
+    border-left:none;
+    border-right:none;
+
+  }
+  footer{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:10px;
+    padding-bottom:1px;
+    border-top:3px;
+    border-bottom:5px;
+    border-color:grey;
+    border-style:solid;
+    border-left:none;
+    border-right:none;
+    
+  }
+  header,footer{
+    color:ivory;
+    background-color: black;
+  }
+
